@@ -1,0 +1,135 @@
+/* Header Styles */
+.header {
+    background-color: #333;
+    color:#fff;
+    display: 10px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.header h1 {
+    font-size: 24px;    
+    
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.header nav ul li {
+margin-left: 20px;
+
+}
+
+.header nav ul li a {
+ color: #fff;
+ text-decoration: none;
+ transition: color 0.3 ease;
+}
+
+.header nav ul li a:hover {
+    color: #ccc
+}
+/* About Me Section */
+.about-me{
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+      
+}
+
+.about-me h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+.about-me p {
+    font-size: 18px;
+}
+
+.work {
+    background-color: #eaeaea;
+    padding: 20px;
+    text-align: left;
+
+}
+.work h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.work img {
+  width: 200px;
+  height: 200px;
+  object-fit:cover;
+  margin:2px 0 0 2px;
+  border: 1px solid #000;
+  padding:1px;
+   float:inline-start;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(50, 110, 126, 0.562) 
+    );
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    transform: scale(1);
+}    
+
+.work img:hover{
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+}
+.work1 img{
+    width: 500px;
+    grid-row-start: auto;
+    
+}
+
+.work2 img{
+    width: 500px;
+    height: 200px;
+}
+
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+
+}
+
+.contact h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-info img {
+    width: 100px;
+    height: 100p;
+    object-fit: cover;
+    margin-right: 10px;
+
+
+}
+
+.contact-info a{
+    color:#fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+}
