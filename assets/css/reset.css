@@ -6,7 +6,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, label, legend, figure, 
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: bottom;
 }
 
 /* HTML5 display-role reset for older browsers */

@@ -8,4 +8,6 @@ but this challege mostly focuses on my css skills to show how I can make my webs
 
 This website contains information about me, my projects that i have done ,and the many ways you can contact me.
 
-With this challenge I am aloud to work on my coding skills while make a portfolio for my future projects and jobs interveiws.
+With this challenge I am aloud to work on my coding skills while make a portfolio for my future projects and jobs interveiws
+### Assets
+![ Demo of my website ](assets/images/website-ezgif.com-video-to-gif-converter.gif)
